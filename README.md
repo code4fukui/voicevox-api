@@ -1,6 +1,7 @@
 # voicevox-api - TextToSpeech API
 
-- COEIROINK、VOICEVOXのAPIを使うDeno用ライブラリ
+- [VOICEVOX API](https://voicevox.github.io/voicevox_engine/api/)を使うDeno用ライブラリ
+- [COEIROINK](https://coeiroink.com/) は、[VOICEVOX API](https://voicevox.github.io/voicevox_engine/api/) 対応
 - TTS, TextToSpeech, text to speech API
 - 要 [Deno](https://deno.land)
 
