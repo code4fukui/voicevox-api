@@ -47,13 +47,15 @@ deno run -A https://code4fukui.github.io/voicevox-api/clearDict.js
 
 ## How to change the voice
 
-1. ボイスを入れる /Applications/COEIROINK.app/Contents/MacOS/speaker_info へ(macの場合)
+1. ボイスを入れる
+    mac: /Applications/COEIROINK.app/Contents/MacOS/speaker_info
+    Windows: COEIROINK_*/speaker_info
 2. COEIROINKを再起動する
 3. 使用するボイスidを取得する
 ```sh
 deno run -A https://code4fukui.github.io/voicevox-api/showSpeakers.js
 ```
-```
+```json
 [
   {
     supported_features: { permitted_synthesis_morphing: "ALL" },
